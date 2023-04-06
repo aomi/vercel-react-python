@@ -5,7 +5,7 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
-  const [data, setData] = useState<any>(null)
+  const [data, setData] = useState<string | null>(null)
 
   // make a fetch request to the server
   useEffect(() => {
